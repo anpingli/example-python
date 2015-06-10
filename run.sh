@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 
 function is_gunicorn_installed() {
     pip show gunicorn
